@@ -1,6 +1,6 @@
 # easyerrors
 
-![Build Status](https://github.com/pprishchepa/easyerrors/workflows/go/badge.svg)
+![Build Status](https://github.com/pprishchepa/easyerrors/workflows/Go/badge.svg)
 [![License](https://img.shields.io/github/license/pprishchepa/easyerrors)](/LICENSE)
 [![Release](https://img.shields.io/github/release/pprishchepa/easyerrors.svg)](https://github.com/golangci/pprishchepa/easyerrors/latest)
 
