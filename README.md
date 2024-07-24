@@ -2,7 +2,7 @@
 
 ![Build Status](https://github.com/pprishchepa/easyerrors/workflows/Go/badge.svg)
 [![License](https://img.shields.io/github/license/pprishchepa/easyerrors)](/LICENSE)
-[![Release](https://img.shields.io/github/release/pprishchepa/easyerrors.svg)](https://github.com/golangci/pprishchepa/easyerrors/latest)
+[![Release](https://img.shields.io/github/release/pprishchepa/easyerrors.svg)](https://github.com/pprishchepa/easyerrors/releases/latest)
 
 Errors with stacktrace support with a simple API.
 
