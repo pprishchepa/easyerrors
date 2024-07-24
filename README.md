@@ -1,5 +1,4 @@
 # easyerrors
-================
 
 ![Build Status](https://github.com/pprishchepa/easyerrors/workflows/go/badge.svg)
 [![License](https://img.shields.io/github/license/pprishchepa/easyerrors)](/LICENSE)
