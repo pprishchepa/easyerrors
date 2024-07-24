@@ -25,5 +25,5 @@ func Join(errs ...error) error {
 }
 
 func Unwrap(err error) error {
-	return goerrors.Join(err)
+	return goerrors.Unwrap(err)
 }

@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-const nestedLevels = 10
+const nestedCalls = 10
 
 var err error
 
@@ -14,7 +14,7 @@ func BenchmarkStdErrors(b *testing.B) {
 	b.ReportAllocs()
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
-		err = doStdCall(stderrors.New("foo"), nestedLevels)
+		err = doStdCall(stderrors.New("foo"), nestedCalls)
 	}
 }
 
@@ -22,7 +22,7 @@ func BenchmarkEasyErrors(b *testing.B) {
 	b.ReportAllocs()
 	b.ResetTimer()
 	for i := 0; i < b.N; i++ {
-		err = doEasyCall(New("foo"), nestedLevels)
+		err = doEasyCall(New("foo"), nestedCalls)
 	}
 }
 
