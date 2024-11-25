@@ -4,7 +4,7 @@ go 1.22.5
 
 require (
 	github.com/go-errors/errors v1.5.1
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 )
 
 require (
